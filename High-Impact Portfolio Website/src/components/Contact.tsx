@@ -14,7 +14,7 @@ export function Contact() {
           <h2 className="text-6xl md:text-8xl lg:text-9xl uppercase tracking-tighter mb-8 leading-tight">
             Vamos Criar Algo
             <span className="block bg-gradient-to-r from-orange-600 via-red-600 to-purple-700 bg-clip-text text-transparent">
-              Extraordinário
+              Incrível
             </span>
           </h2>
 
