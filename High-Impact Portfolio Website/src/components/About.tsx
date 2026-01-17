@@ -2,7 +2,7 @@ import { motion } from "motion/react";
 
 export function About() {
   return (
-    <section className="relative bg-gradient-to-br from-orange-500 via-red-600 to-purple-900 py-32 md:py-48 px-6 md:px-12">
+    <section className="relative overflow-hidden bg-gradient-to-br from-orange-500 via-red-600 to-purple-900 py-32 md:py-48 px-6 md:px-12">
       <div className="max-w-5xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
