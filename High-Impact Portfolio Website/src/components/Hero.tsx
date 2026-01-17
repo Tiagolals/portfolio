@@ -5,7 +5,7 @@ export function Hero() {
   return (
     <section className="relative h-screen flex items-center justify-center overflow-hidden">
       {/* Abstract Digital Background - No Images */}
-      <div className="absolute inset-0 z-0 bg-black">
+      <div className="absolute inset-0 z-0 bg-black saturate-150">
         {/* Base Gradient Layer */}
         <div className="absolute inset-0 bg-gradient-to-br from-orange-600 via-red-600 to-black"></div>
         
@@ -36,7 +36,7 @@ export function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.2 }}
         >
-          <h1 className="text-5xl sm:text-7xl md:text-9xl lg:text-[12rem] uppercase tracking-tighter mb-6 leading-[0.95]">
+          <h1 className="text-7xl md:text-9xl lg:text-[12rem] uppercase tracking-tighter mb-6 leading-[0.95]">
             <span className="block bg-gradient-to-r from-white via-orange-200 to-yellow-300 bg-clip-text text-transparent">
               Visão
             </span>
