@@ -60,7 +60,7 @@ export function Hero() {
           href="#projects"
           className="group inline-flex items-center gap-3 bg-white text-black px-10 py-5 text-lg hover:bg-orange-500 hover:text-white transition-all duration-300"
         >
-          Oque posso fazer por você
+          O que posso fazer por você
           <ArrowRight className="w-5 h-5 group-hover:translate-x-2 transition-transform duration-300" />
         </motion.a>
       </div>
